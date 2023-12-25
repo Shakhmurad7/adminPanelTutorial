@@ -3,8 +3,35 @@
   margin: 0;
   box-sizing: border-box;
 }
+.header-container{
+  color: rgba(1, 1, 1, 0.689);
+  display: flex;
+
+}
+.header-left{
+  padding: 20px 40px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+.haeedr-right{
+  width: 100%;
+  justify-content: end;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  padding: 20px 40px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.header-left h2{
+  font-weight: 700;
+  color: rgb(52, 52, 178);
+}
+.header-world{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
 .header-img img{
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
 }
