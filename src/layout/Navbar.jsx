@@ -11,6 +11,7 @@ import { GiBrain } from "react-icons/gi";
 import { CiSettings } from "react-icons/ci";
 import { VscAccount } from "react-icons/vsc";
 import { CiLogin } from "react-icons/ci";
+import '../index.css' 
 
 function Navbar() {
   return (
@@ -70,22 +71,6 @@ function Navbar() {
                 <p>Logout</p>
             </li>
         </ul>
-
-              
-        
-
-      
-          
-          
-           
-               
-        
-           
-             
-                <FaTruckFast />
-                <p>Delivery</p>
-            
-       
     </div>
   )
 }
