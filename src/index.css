@@ -51,7 +51,7 @@
 
 .Navbar-container{
   font-size: 18px;  
-  min-height: 90vh;
+  min-height: 120vh;
   display: flex;
   flex: 1;
   height: 100%;
@@ -80,7 +80,7 @@
   display: flex;
 }
 .Home-right{
-  padding: 20px;
+  padding: 30px;
   display: flex;
   flex-direction: column;
   flex: 6;
@@ -151,4 +151,45 @@
 .Progressbar{
   width: 200px;
   height: auto;
+}
+
+/* ----progress-card---- */
+.CircularProgressBar{
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.progress-card{
+  margin-top: 40px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: center;
+  padding: 30px;
+  width: 400px;
+  height: auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.progress-cart-top-text{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.progress-botton{
+  display: flex;
+  justify-content: space-between;
+}
+.progress-botton-block{
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+  display: flex;
+}
+.progress-icon{
+  display: flex;
+  gap: 7px;
+  align-items: center;
 }

@@ -81,16 +81,20 @@ function Home() {
 
       {/* ---CircularProgressBar--- */}
       <div className="progress-card">
+
       <div className="progress-cart-top-text">
         <h3>Total Revebue</h3>
         <FiMoreVertical />
       </div>
-        <CircularProgressBar/>
-        <h3>Total Sales made today</h3>
-        <h1>$540</h1>
-        <p>Previous transaction .Last payments may not be inclused</p>
+
+        <div className="CircularProgressBar">
+          <CircularProgressBar/>
+            <h3>Total Sales made today</h3>
+            <h1>$540</h1>
+            <p>Previous transaction .Last payments may not be inclused</p>
+        </div>
+
         <div className="progress-botton">
-
           <div className="progress-botton-block">
             <h2>Targer</h2>
             <div className="progress-icon">
@@ -100,17 +104,17 @@ function Home() {
           </div>
 
           <div className="progress-botton-block">
-            <h2>Targer</h2>
+            <h2>Last week</h2>
             <div className="progress-icon">
-              <FaAngleDown />
+              <FiChevronUp />
               <p>$12.5k</p>
             </div>
           </div>
 
           <div className="progress-botton-block">
-            <h2>Targer</h2>
+            <h2>Last month</h2>
             <div className="progress-icon">
-              <FaAngleDown />
+              <FiChevronUp />
               <p>$12.5k</p>
             </div>
           </div>
