@@ -83,5 +83,35 @@
   padding: 20px;
   display: flex;
   flex: 6;
+}
 
+/* ----homer-block--- */
+.home-block-top{
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 250px;
+  padding: 15px;
+}
+.home-block-left , .home-block-right{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-between;
+}
+.home-block-right{
+  align-items: end;
+}
+.home-block-icon{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.Fauser{
+  background-color: rgba(255, 0, 0, 0.534);
+  padding: 8px;
+  font-size: 30px;
+  border-radius: 10px;
+  margin: 0px -2px -2px 0px;
 }
