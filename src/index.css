@@ -82,6 +82,7 @@
 .Home-right{
   padding: 20px;
   display: flex;
+  flex-direction: column;
   flex: 6;
 }
 
@@ -118,8 +119,21 @@
   align-items: center;
   gap: 5px;
 }
-.Fauser{
-  background-color: rgba(255, 0, 0, 0.534);
+.Fauser-4{
+  color: #7451f8 !important;
+  background-color: #7551f832 !important;
+}
+.Fauser-3{
+  color: green !important; 
+  background-color: rgba(0, 128, 0, 0.151) !important;
+}
+.Fauser-2 {
+  color: orange !important;
+  background-color: rgba(255, 166, 0, 0.184) !important;
+}
+.Fauser-1 , .Fauser-2 ,.Fauser-3 ,.Fauser-4{
+  background-color: rgba(255, 0, 0, 0.185);
+  color: rgb(158, 6, 6);
   padding: 8px;
   font-size: 30px;
   border-radius: 10px;
@@ -130,4 +144,11 @@
 }
 .home-block-left p{
   text-decoration:underline rgba(0, 0, 0, 0.479);
+}
+
+
+/* ---Progressbar--- */
+.Progressbar{
+  width: 200px;
+  height: auto;
 }
