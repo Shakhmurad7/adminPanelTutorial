@@ -1,12 +1,16 @@
+import { Route, Routes } from "react-router-dom"
 import Home from "./components/home"
-import Navbar from "./layout/Navbar"
-import Header from "./layout/header"
+import User from "./Pages/User"
+import Dashboard from "./Pages/Dashboard"
 
 function App() {
   return (
     <>
-      <Header/>
-      <Home/>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/user" element={<User/>}/>
+        <Route path="/Dashboard" element={<Dashboard/>}/>
+      </Routes>
     </>
   )
 }

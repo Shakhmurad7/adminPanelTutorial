@@ -12,6 +12,7 @@ import { CiSettings } from "react-icons/ci";
 import { VscAccount } from "react-icons/vsc";
 import { CiLogin } from "react-icons/ci";
 import '../index.css' 
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
@@ -19,13 +20,17 @@ function Navbar() {
         <ul>
             <p className='nav-item'>MAIN</p>
             <li>
+                <Link to={'./Dashboard'}>
                 <MdDashboard />
                 <p>Dashboard</p>
+                </Link>
             </li>
             <p className='nav-item'>LISTS</p>
             <li>
+                <Link to={'./user'}>
                 <FaUser />
                 <p>Users</p>
+                </Link>
             </li>
             <li>
                  <MdOutlineProductionQuantityLimits />

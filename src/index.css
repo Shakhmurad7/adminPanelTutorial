@@ -5,6 +5,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+a{
+  text-decoration: none;
+}
 
 /* ---Header--- */
 
@@ -64,6 +67,16 @@
   align-items: center;
   display: flex;
   padding: 10px 0px 0px 28px;
+  gap: 10px;
+}
+.Navbar-container ul li a{
+  
+  color: #7451f8;
+  list-style: none;
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+  /* padding: 10px 0px 0px 28px; */
   gap: 10px;
 }
 .Navbar-container ul li p , .nav-item{
@@ -187,10 +200,28 @@
   gap: 7px;
   display: flex;
 }
+.CircularProgressBar h1{
+  color: black !important;
+}
+.progress-botton-block h2 , .CircularProgressBar{
+  color: #555555a8;
+}
 .progress-icon{
   display: flex;
   gap: 7px;
   align-items: center;
+}
+.progress-icon.one{
+  color: red ;
+  font-weight: 700;
+}
+.progress-icon.two{
+  color: green ;
+  font-weight: 700;
+}
+.progress-icon.three{
+  color: green ;
+  font-weight: 700;
 }
 
 /* ---Charts--- */

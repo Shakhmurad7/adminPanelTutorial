@@ -99,7 +99,7 @@ function Home() {
         <div className="progress-botton">
           <div className="progress-botton-block">
             <h2>Targer</h2>
-            <div className="progress-icon">
+            <div className="progress-icon one">
               <FaAngleDown />
               <p>$12.5k</p>
             </div>
@@ -107,7 +107,7 @@ function Home() {
 
           <div className="progress-botton-block">
             <h2>Last week</h2>
-            <div className="progress-icon">
+            <div className="progress-icon two">
               <FiChevronUp />
               <p>$12.5k</p>
             </div>
@@ -115,7 +115,7 @@ function Home() {
 
           <div className="progress-botton-block">
             <h2>Last month</h2>
-            <div className="progress-icon">
+            <div className="progress-icon three">
               <FiChevronUp />
               <p>$12.5k</p>
             </div>
