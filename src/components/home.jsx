@@ -9,6 +9,7 @@ import { CiWallet } from "react-icons/ci";
 import CircularProgressBar from '../layout/CircularProgressBar';
 import { FiMoreVertical } from "react-icons/fi";
 import { FiChevronUp } from "react-icons/fi";
+import ReCharts from '../layout/ReCharts';
 
 function Home() {
 
@@ -79,6 +80,7 @@ function Home() {
         </div>
       </div>
 
+<div className="home-center">
       {/* ---CircularProgressBar--- */}
       <div className="progress-card">
 
@@ -121,6 +123,15 @@ function Home() {
 
         </div>
       </div>
+      {/* ----reCharts--- */}
+      <div className="ReCharts">
+        <h2>Last 6 month (Revenue)</h2>
+        <ReCharts/>
+      </div>
+</div>
+
+
+
     </div>
     </div>
 

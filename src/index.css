@@ -149,7 +149,7 @@
 
 /* ---Progressbar--- */
 .Progressbar{
-  width: 200px;
+  width: 150px;
   height: auto;
 }
 
@@ -162,7 +162,6 @@
   flex-direction: column;
 }
 .progress-card{
-  margin-top: 40px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -192,4 +191,23 @@
   display: flex;
   gap: 7px;
   align-items: center;
+}
+
+/* ---Charts--- */
+.home-center{
+  margin-top: 40px;
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+}
+.ReCharts h2{
+  padding-bottom: 20px;
+  padding-left: 20px;
+  color: #555555b4;
+}
+.ReCharts{
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
 }
