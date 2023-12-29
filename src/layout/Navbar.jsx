@@ -19,15 +19,15 @@ function Navbar() {
     <div className="Navbar-container">
         <ul>
             <p className='nav-item'>MAIN</p>
+                <Link to={'/Dashboard'}>
             <li>
-                <Link to={'./Dashboard'}>
                 <MdDashboard />
                 <p>Dashboard</p>
-                </Link>
             </li>
+                </Link>
             <p className='nav-item'>LISTS</p>
             <li>
-                <Link to={'./user'}>
+                <Link to={'/user'}>
                 <FaUser />
                 <p>Users</p>
                 </Link>

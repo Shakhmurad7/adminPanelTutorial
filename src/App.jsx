@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom"
+import { Route, Routes } from "react-router"
 import Home from "./components/home"
 import User from "./Pages/User"
 import Dashboard from "./Pages/Dashboard"
@@ -8,7 +8,7 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="/user" element={<User/>}/>
+        <Route path="/User" element={<User/>}/>
         <Route path="/Dashboard" element={<Dashboard/>}/>
       </Routes>
     </>

@@ -4,7 +4,7 @@ import PageContainer from '../components/PageContainer'
 function Dashboard() {
   return (
     <PageContainer>
-        <div>Dashboard</div>
+          <h1>Dashbodard</h1>
     </PageContainer>
   )
 }

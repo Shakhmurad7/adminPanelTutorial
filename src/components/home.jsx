@@ -10,13 +10,15 @@ import CircularProgressBar from '../layout/CircularProgressBar';
 import { FiMoreVertical } from "react-icons/fi";
 import { FiChevronUp } from "react-icons/fi";
 import ReCharts from '../layout/ReCharts';
+import PageContainer from './PageContainer';
 
 function Home() {
 
   return (
     <>
-    <div className="Home-comtainer">
-    <Navbar/>
+    <PageContainer>
+
+
 
     <div className="Home-right">
 
@@ -133,9 +135,9 @@ function Home() {
 
 
     </div>
-    </div>
 
   
+    </PageContainer>
     </>
   )
 }

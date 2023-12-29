@@ -1,10 +1,11 @@
 import React from 'react'
 import PageContainer from '../components/PageContainer'
+import '../index.css'
 
 function User() {
   return (
     <PageContainer>
-        <div>User</div>
+        <h1>user</h1>
     </PageContainer>
   )
 }
