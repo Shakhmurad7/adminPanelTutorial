@@ -20,7 +20,7 @@ function Home() {
 
 
 
-    <div className="Home-right">
+
 
       <div className="home-container-block-top">
         <div className="home-block-top">
@@ -132,11 +132,6 @@ function Home() {
       </div>
 </div>
 
-
-
-    </div>
-
-  
     </PageContainer>
     </>
   )

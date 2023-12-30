@@ -1,11 +1,11 @@
 import React from 'react'
 import PageContainer from '../components/PageContainer'
+import { Link } from 'react-router-dom'
+import Home from '../components/home'
 
 function Dashboard() {
   return (
-    <PageContainer>
-          <h1>Dashbodard</h1>
-    </PageContainer>
+      <Home/>
   )
 }
 
