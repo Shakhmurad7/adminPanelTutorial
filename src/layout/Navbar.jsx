@@ -46,8 +46,10 @@ function Navbar() {
             </li>
             <p className='nav-item'>USEFUL</p>
             <li>
+                <Link to={"/Status"}>
                 <IoStatsChartSharp />
                 <p>Stats</p>
+                </Link>
             </li>
             <li>
                 <FaRegBell/>
