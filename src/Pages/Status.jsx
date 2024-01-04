@@ -1,7 +1,8 @@
 import PageContainer from '../components/PageContainer'
 import React from 'react';
-import { BarChart, Bar, Rectangle, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import ChartsStatusLeft from '../PageCharts/ChartsStatusLeft';
+import ChartsStatusRight from '../PageCharts/ChartsStatusRight';
+import '../index.css'
 
 function Status() {
   return (
@@ -9,6 +10,18 @@ function Status() {
         <div className="Status-Chats">
             <div className="Chats-left">
                 <ChartsStatusLeft/>
+            </div>
+            <div className="Chats-right">
+                <ChartsStatusRight/>
+            </div>
+        </div>
+        
+        <div className="Status-Chats">
+            <div className="Chats-left">
+                <ChartsStatusLeft/>
+            </div>
+            <div className="Chats-right">
+                <ChartsStatusRight/>
             </div>
         </div>
     </PageContainer>

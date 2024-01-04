@@ -242,3 +242,12 @@ a{
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
 }
+
+
+
+/* ----Status-Chats---- */
+.Status-Chats{
+  padding-bottom: 100px;;
+  display: flex;
+  gap: 30px;
+}
