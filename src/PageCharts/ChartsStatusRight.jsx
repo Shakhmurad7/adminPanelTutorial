@@ -98,7 +98,6 @@ export default class Example extends PureComponent {
             <Line type="monotone" dataKey="pv" strokeOpacity={opacity.pv} stroke="#8884d8" activeDot={{ r: 8 }} />
             <Line type="monotone" dataKey="uv" strokeOpacity={opacity.uv} stroke="#82ca9d" />
           </LineChart>
-        <p className="notes">Tips: Hover the legend !</p>
       </div>
     );
   }

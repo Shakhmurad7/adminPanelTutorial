@@ -3,6 +3,8 @@ import React from 'react';
 import ChartsStatusLeft from '../PageCharts/ChartsStatusLeft';
 import ChartsStatusRight from '../PageCharts/ChartsStatusRight';
 import '../index.css'
+import PieCharts from '../PageCharts/PieCharts';
+
 
 function Status() {
   return (
@@ -15,10 +17,10 @@ function Status() {
                 <ChartsStatusRight/>
             </div>
         </div>
-        
+
         <div className="Status-Chats">
             <div className="Chats-left">
-                <ChartsStatusLeft/>
+              <PieCharts/>
             </div>
             <div className="Chats-right">
                 <ChartsStatusRight/>
